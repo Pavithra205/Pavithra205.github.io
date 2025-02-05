@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+}
+
+/* Section Styles */
+section {
+    margin: 20px;
+}
+
+section h2 {
+    color: #333;
+}
+
+section p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Image Styles */
+img {
+    width: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+}
